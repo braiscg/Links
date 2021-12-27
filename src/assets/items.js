@@ -1,60 +1,46 @@
-import website from '../assets/website.png'
 import instagram from '../assets/instagram.png'
-import appstore from '../assets/playstore.png'
 import youtube from '../assets/youtube.jpeg'
-import dribbble from '../assets/dribbble.png'
-import github from '../assets/github.png'
+import spotify from '../assets/spotify.png'
 import telegram from '../assets/telegram.png'
 import twitter from '../assets/twitter.png'
+import linkedin from '../assets/linkedin.png'
 
 const items = [{
-    "title": "Website",
-    "subtitle": "Look at my work!",
-    "image": website,
-    "link": "https://sagniksahoo.me" //your personal website or portfolio  link
-},
-{
-    "title": "GitHub",
-    "subtitle": "@devgossips | 🏠 of my open-source projects",
-    "image": github,
-    "link": "https://github.com/devgossips" //Github Profile link
-},
-{
-    "title": "Instagram",
-    "subtitle": "@heysagnik | Hub of my awesome 😎 pics",
-    "image": instagram,
-    "link": "https://instagram.com/heysagnik" //instagram profile link 
+    "title": "Linkedin",
+    "subtitle": "I talk about corporate innovation, business and new ventures",
+    "image": linkedin,
+    "link": "https://www.linkedin.com/in/braiscomesana/" //your personal website or portfolio  link
 },
 {
     "title": "Twitter",
-    "subtitle": "@heysagnik | Don't forget to follow me 😉",
+    "subtitle": "@braiscg | Don't forget to follow me 😉",
     "image": twitter,
-    "link": "https://twitter.com/heysagnik"// twitter profile link 
+    "link": "https://twitter.com/braiscg"// twitter profile link 
 },
 {
-    "title": "Apps",
-    "subtitle": "Hub of my awesome 🔥 Apps",
-    "image": appstore,
-    "link": "#"//
+    "title": "Instagram",
+    "subtitle": "@braiscg| Hub of my awesome 😎 pics",
+    "image": instagram,
+    "link": "https://instagram.com/braiscg" //instagram profile link 
 },
 {
-    "title": "YouTube",
-    "subtitle": "@Sagnik Sahoo | Official channel of mine",
+    "title": "Innovation Takes Guts - YouTube",
+    "subtitle": "Watch the interviews of our podcast about Corporate Innovation",
     "image": youtube,
-    "link": "https://www.youtube.com/channel/UCOUa9hvd4sJWQWQRIQctbSg"//youtube channel link 
+    "link": "https://www.youtube.com/channel/UC1mqX7sytX3JX0mPi16lbYg"//youtube channel link 
 },
 
 {
-    "title": "Dribbble",
-    "subtitle": "@virtuonic | Hub to the Shots of my 😎 apps ",
-    "image": dribbble,
-    "link": "https://dribbble.com/virtuonic" // Dribbble profile link 
+    "title": "Innovation takes Guts - Spotify",
+    "subtitle": "Listen to the interviews of our podcast about Corporate Innovation ",
+    "image": spotify,
+    "link": "https://open.spotify.com/show/34cEEACZyNo4mJTqgLYuFs" // Dribbble profile link 
 },
 {
     "title": "Telegram",
-    "subtitle": "@virtuonic | Chat with me instantly, Don't hesitate! ",
+    "subtitle": "@braiscg | Chat with me instantly, Don't hesitate! ",
     "image": telegram,
-    "link": "https://telegram.me/heysagnik" //Telegram Pofile 
+    "link": "https://telegram.me/braiscg" //Telegram Pofile 
 }]
 
 export default items
