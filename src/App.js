@@ -3,11 +3,23 @@ import Header from './components/Header'
 import Card from './components/Card'
 import Footer from './components/Footer'
 import items from './assets/items'
+import ReactGA from 'react-ga'
 
 import './css/skeleton.css'
 import './css/normalize.css'
+import { Component } from 'react/cjs/react.production.min';
+class App extends Component {
 
-function App() {
+    initReactGA = () => {
+        ReactGA.initialize('UA-131751499-9');
+        ReactGA.pageview('home');
+      };
+      componentDidMount(){
+        this.initReactGA();
+      }
+    
+
+render() {
     return ( 
         <div className = "App" >
             <Header></Header>
@@ -29,6 +41,6 @@ function App() {
             <Footer></Footer>
         </div>
     );
-}
+            }}
 
 export default App;

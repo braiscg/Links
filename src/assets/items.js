@@ -4,12 +4,19 @@ import spotify from '../assets/spotify.png'
 import telegram from '../assets/telegram.png'
 import twitter from '../assets/twitter.png'
 import linkedin from '../assets/linkedin.png'
+import consupermiso from '../assets/consupermiso.png'
 
 const items = [{
     "title": "Linkedin",
     "subtitle": "I talk about corporate innovation, business and new ventures",
     "image": linkedin,
     "link": "https://www.linkedin.com/in/braiscomesana/" //your personal website or portfolio  link
+},
+{
+    "title": "Consupermiso",
+    "subtitle": "Cashback ",
+    "image": consupermiso,
+    "link": "https://www.consupermiso.com/signup?referer=5b97ccc9e2e03e68508b4c74" //Telegram Pofile 
 },
 {
     "title": "Twitter",
@@ -41,6 +48,7 @@ const items = [{
     "subtitle": "@braiscg | Chat with me instantly, Don't hesitate! ",
     "image": telegram,
     "link": "https://telegram.me/braiscg" //Telegram Pofile 
-}]
+}
+]
 
 export default items

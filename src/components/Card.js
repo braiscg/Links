@@ -1,9 +1,13 @@
 import React from 'react'
-
 import '../css/skeleton.css'
 import '../css/normalize.css'
 import '../css/components.css'
 import { motion } from "framer-motion"
+//import ReactGA from 'react-ga'
+//import { Link } from "react-router"
+
+
+
 
 function Card(props) {
 
@@ -23,7 +27,7 @@ function Card(props) {
     }
 
     return (
-        <a href={props.link} target="_blank" rel="noopener noreferrer">
+        <a href={props.link} target="_blank" rel="noopener noreferrer" >
             <motion.div className = "Card four columns"
                 initial="hidden"
                 animate="visible"
@@ -37,6 +41,7 @@ function Card(props) {
             </motion.div>
         </a>
     )
+    
 }
 
 export default Card
