@@ -10,7 +10,7 @@ function Header() {
     <div className="Header container">
       <div className="Header__inner">
 
-        <img src={logo} alt="Brais Comesaña Profile Picture" />
+        <img src={logo} alt="Brais Comesaña Profile" />
         <h2>
           <b>Brais Comesaña</b>
         </h2>
