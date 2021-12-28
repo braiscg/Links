@@ -39,15 +39,15 @@ body {
 }
 
 img {
-  width: 46px;
-  height: 46px;
+  width: 200px;
+  height: 200px;
   border-radius: 75%;
   margin-top: 10px;
 }
 
 .row {
   align-items: center;
-  margin-top: 5%;
+  margin-top: 1%;
   margin-bottom: 5%;
 }
 
@@ -62,12 +62,14 @@ a:hover {
   margin-right: 2%;
   padding: 8px;
   border-radius: 8px;
-  height: 200px;
+  height: 250px;
+  border: 1px solid var(--font-color);
+  box-shadow: 5px 5px 10px 5px var(--card-hover-bg);
 }
 
 .Card:hover {
   background: var(--card-hover-bg);
-  border: 1px solid hsla(0, 0%, 87.8%, 0);
+  border: 1px solid var(--font-color);
 }
 
 .data {
@@ -85,7 +87,7 @@ h2 {
 p {
   font-size: 100%;
   font-weight: 400;
-  color: rgb(70, 70, 70);
+  color: rgb(172, 172, 172);
   margin-bottom: 5px;
 }
 

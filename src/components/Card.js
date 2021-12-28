@@ -3,7 +3,7 @@ import '../css/skeleton.css'
 import '../css/normalize.css'
 import '../css/components.css'
 import { motion } from "framer-motion"
-//import ReactGA from 'react-ga'
+import ReactGA from 'react-ga'
 //import { Link } from "react-router"
 
 
@@ -11,6 +11,14 @@ import { motion } from "framer-motion"
 
 function Card(props) {
 
+    const eventTrack = (category, action, label) => {
+        console.log("GA event:", category, ":", action, ":", label);
+        ReactGA.event({
+          category: category,
+          action: action,
+          label: label,
+        })
+      }
     const variants = {
         visible: i => ({
             opacity: 1,
@@ -27,7 +35,7 @@ function Card(props) {
     }
 
     return (
-        <a href={props.link} target="_blank" rel="noopener noreferrer" >
+                <a href={props.link} target="_blank" rel="noopener noreferrer" onClick={eventTrack.bind(this, "Outbound", "Clic", props.title)} >
             <motion.div className = "Card four columns"
                 initial="hidden"
                 animate="visible"
