@@ -5,6 +5,7 @@ import telegram from "../assets/telegram.png";
 import twitter from "../assets/twitter.png";
 import linkedin from "../assets/linkedin.png";
 import consupermiso from "../assets/consupermiso.png";
+import salylaurel from "../assets/salylaurel.png";
 
 const items = [
   {
@@ -21,6 +22,21 @@ const items = [
     link: "https://twitter.com/braiscg", // twitter profile link
   },
   {
+    title: "Innovation takes Guts - Spotify",
+    subtitle:
+      "Listen to the interviews of our podcast about Corporate Innovation",
+    image: spotify,
+    link: "https://open.spotify.com/show/34cEEACZyNo4mJTqgLYuFs", // Dribbble profile link
+  },
+
+  {
+    title: "Sal y Laurel",
+    subtitle: "Tienda online de pescado y marisco de Galicia",
+    image: salylaurel,
+    link: "https://salylaurel.es/", //Telegram Pofile
+  },
+
+  {
     title: "Innovation Takes Guts - YouTube",
     subtitle: "I host a podcast about corporates building new ventures",
     image: youtube,
@@ -31,14 +47,6 @@ const items = [
     subtitle: "@braiscg| Pictures and stories about my personal life with friends and my love.",
     image: instagram,
     link: "https://instagram.com/braiscg", //instagram profile link
-  },
-
-  {
-    title: "Innovation takes Guts - Spotify",
-    subtitle:
-      "Listen to the interviews of our podcast about Corporate Innovation",
-    image: spotify,
-    link: "https://open.spotify.com/show/34cEEACZyNo4mJTqgLYuFs", // Dribbble profile link
   },
   {
     title: "Consupermiso",
